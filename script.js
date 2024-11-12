@@ -10,7 +10,7 @@ async function sendMessage() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer YOUR_OPENAI_API_KEY'
+            'Authorization': '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'
         },
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
