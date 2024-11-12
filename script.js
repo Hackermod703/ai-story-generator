@@ -20,8 +20,9 @@ async function sendMessage() {
     });
 
     const data = await response.json();
-    const botReply = data.choices[0].message.content;
-    displayMessage('bot', botReply);
+console.log(data); // Log the entire response for debugging
+const botReply = data.choices[0].message.content;
+displayMessage('bot', botReply);
 }
 
 function displayMessage(sender, message) {
