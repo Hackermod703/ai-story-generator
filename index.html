@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #chatbox { max-width: 600px; margin: auto; }
+        .message { margin: 10px 0; }
+        .user { color: blue; }
+        .bot { color: green; }
+    </style>
+</head>
+<body>
+    <div id="chatbox">
+        <h2>Chat with AI</h2>
+        <div id="conversation"></div>
+        <input type="text" id="user-input" placeholder="Type your message here" />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
